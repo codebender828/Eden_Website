@@ -1,0 +1,91 @@
+body {
+    height:100%;
+    margin:0;
+    background-image:
+      linear-gradient(rgba(27, 20, 100, 100),rgba(0, 0, 255, 0)),
+      url(../images/floral-background0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    /* position: absolute; */
+}
+
+/* Navbar Togglers */
+
+.navbar-toggler {
+  padding: 0.1rem 0.3rem;
+  font-size: 1.25rem;
+  line-height: 0.5;
+  background-color: transparent;
+  border: none;
+  border-radius: 2rem;
+}
+
+.navbar-toggler:hover, .navbar-toggler:focus {
+  text-decoration: none;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  color: #fff; !important
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+  z-index: -10;
+
+}
+#bar-nav {
+  background: none;
+  /* color: #fff; */
+  z-index: 25;
+}
+#bar-nav a {
+  color: #fff;
+  font-family: 'Yeseva One', cursive;
+
+}
+#bar-nav .navbar-brand {
+  font-size: 1.5em;
+  margin-left:40px;
+  font-weight: 200;
+  font-size:30px;
+}
+.navbar-nav {
+  margin-right: 50px;
+}
+#bar-nav div a {
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar-nav a {
+  margin-left: 40px;
+  /* font-weight:lighter; */
+}
+#fancy {
+  position: absolute;
+  top:0;
+  left:0;
+  /* min-height:300px; */
+  z-index:-5;
+  /* height:500px; */
+  /* width:1920px; */
+  width:100%;
+}
+#flower {
+  height:35px;
+  width:35px;
+  margin-top:-10px;
+  margin-right: 5px;
+}
+#petal-story {
+  padding: 3% 10%;
+  font-family: 'Yeseva One', cursive;
+  color:#fff;
+}
