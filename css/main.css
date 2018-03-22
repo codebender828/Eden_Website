@@ -94,8 +94,8 @@ body {
 /* MEDIA QUERIES */
 @media (max-width: 767px) and (min-width: 320px) {
   #navbarNav {
-    padding: 20px;
+    padding: 25px;
     border-radius: 3px;
-    background-color: rgb(242, 85, 97);
+    background: linear-gradient(300deg, rgb(242, 85, 97), rgb(248, 147, 73));
   }
 }
